@@ -1,0 +1,6 @@
+@import "./colores.css";
+
+.piePagina{
+    background-color: var(--azul-claro);
+    height: 300px;
+}

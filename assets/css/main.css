@@ -1,0 +1,137 @@
+@import "./colores.css";
+
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(#0aa1dd35, #0aa1dd58),url(/assets/img/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+}
+
+.banner__contenido{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    left: 7rem;
+}
+
+.banner__titulo{
+    color: var(--blanco);
+    font-size: 3rem;
+    width: 500px;
+    text-shadow: 2px 2px 2px var(--negro);
+}
+
+.banner__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--blanco);
+    /* text-shadow: 1.8px 1.8px 1.8px var(--negro); */
+    width: 250px;
+    height: 50px;
+    border: 0.2rem solid var(--azul-oscuro);
+    border-radius: 25px;
+    transition: all .5s;
+    /* box-shadow: 2.5px 1.5px 2px var(--negro); */
+}
+.banner__btn:hover{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    text-shadow: none;
+    box-shadow: 1.8px 1.8px 2px var(--negro);
+    cursor: pointer;
+}
+.banner__patrocinador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #e5fafee7 ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    right: 7rem;
+}
+.banner__patrocinador__img{
+    background-image: url(/assets/img/artworks-000071160325-45qoa7-t500x500.svg) ;
+    width: 200px;
+    height: 200px;
+}
+
+.section--titulo{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--azul-oscuro);
+}
+/* Reseña */
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blanco-azulado);
+    height: 300px;
+    gap: 1rem;
+    color: var(--azul-oscuro);
+}
+
+.vision__articulo{
+    background-color: var(--blanco);
+    width: 90%;
+    border-radius: .7rem;
+    padding: 0 1rem;
+}
+
+/* Nosotros */
+
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blanco);
+    height: 400px;
+    gap: 1rem;
+    color: var(--azul-oscuro);
+}
+.integrantes__box{
+    display: flex;
+    justify-content: space-around;
+}
+.integrante{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ejemplo__img{
+    background-color: var(--blanco-azulado);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.integrantes__nombre{
+    text-align: center;
+}
+.integrantes__vocacion{
+    text-align: center;
+    color: var(--azul);
+    opacity: .4;
+}
+
+/* Contactenos */
+
+.contactenos{
+    background-color: var(--blanco-azulado);
+    height: 600px;
+}
+
+.contactenos__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

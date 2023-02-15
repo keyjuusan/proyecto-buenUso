@@ -1,0 +1,12 @@
+:root{
+    --negro:#333333;
+    --gris:#555555;
+    --blanco:#fffff3;
+    --rojo:#ff0000;
+    --verde:#34c134;
+    --azul-oscuro:#2673e7;
+    --azul:#0AA1DD;
+    --azul-claro:#79DAE8;
+    --degradado-azul: linear-gradient(120deg, var(--azul-oscuro) 0%, var(--azul) 100%);
+    --blanco-azulado:#e5fafe;
+}
