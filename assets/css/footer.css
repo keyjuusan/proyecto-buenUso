@@ -1,4 +1,4 @@
-@import "./colores.css";
+@import "colores.css";
 
 .piePagina{
     background-color: var(--azul-claro);
