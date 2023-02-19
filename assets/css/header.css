@@ -3,7 +3,7 @@
 .encabezado{
     display:flex;
     flex-direction: row;
-    background-image: var(--degradado-azul);
+    background-color: var(--azul-oscuro);
     height: 55px;
     color: var(--blanco);
     font-size: 1.2rem;
@@ -17,16 +17,28 @@
 }
 
 .encabezado__navegacion{
-    width: 290px;
+    width: 390px;
 }
 
-.navegacion__lista{
+.navegacion__menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+    height: 100%;
 }
+
+.navegacion__menu--item{
+    display: flex;
+    
+}
+
 .navegacion__item--enlace{
     color: var(--blanco);
     text-decoration: none;
+    opacity: .7;
+    transition: .3s;
+}
+.navegacion__item--enlace:hover{
+    opacity: 1;
 }
