@@ -7,33 +7,22 @@
     overflow: hidden;
     height: 500px;
     width: 100%;
-    justify-content: center;
-    /* animation: slidein 20s infinite ease-in-out; */
+    justify-content: center; 
 }
-
-/* @keyframes slidein {
-    from{
-        margin-right:0%;
-    }
-
-    to{
-        margin-right:100%;
-    }
-} */
 
 .banner{
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center; 
     height: 100%;
     background-size: cover;
-    background-position: top;
+    
     width: 100%;
 }
 .banner1{
     background-image: linear-gradient(#0aa1dd35, #0aa1dd58),url('../img/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg');
+    background-position: top;
     animation:animacion1 18s alternate infinite ease-in-out;
     left: 0%;
 }
@@ -52,7 +41,8 @@
 }
 
 .banner2{
-    background-image: linear-gradient(#0aa1dd35, #0aa1dd58),url('../img/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg');
+    background-image: linear-gradient(#79d9e87a, #79d9e876),url('../img/emma-simpson-mNGaaLeWEp0-unsplash.jpg');
+    background-position: bottom;
     left: 100%;
     animation:animacion2 18s alternate infinite ease-in-out;
 }
@@ -75,15 +65,21 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    /* left: 7rem; */
+}
+.banner1__contenido{
+    order: 1; 
     left: 7rem;
 }
-
-
+.banner2__contenido{
+    order: 2;
+    right: 5rem;
+}
 
 .banner__titulo{
     color: var(--blanco);
     font-size: 3rem;
-    width: 500px;
+    width: 510px;
     text-shadow: 2px 2px 2px var(--negro);
 }
 
@@ -94,33 +90,53 @@
     text-decoration: none;
     font-size: 1.6rem;
     color: var(--blanco);
-    /* text-shadow: 1.8px 1.8px 1.8px var(--negro); */
     width: 250px;
     height: 50px;
-    border: 0.2rem solid var(--azul-oscuro);
+   
     border-radius: 25px;
-    transition: all .5s;
+    transition: all .4s;
     /* box-shadow: 2.5px 1.5px 2px var(--negro); */
 }
+.banner1__btn{
+    border: 0.2rem solid var(--azul-oscuro);
+}
+.banner2__btn{
+    border: 0.2rem solid var(--blanco);
+}
+
 .banner__btn:hover{
-    background-color: var(--azul-oscuro);
-    color: var(--blanco);
     text-shadow: none;
     box-shadow: 1.8px 1.8px 2px var(--negro);
     cursor: pointer;
 }
+.banner1__btn:hover{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+}
+.banner2__btn:hover{
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+
 .banner__patrocinador{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: #e5fafee7 ;
+    background-color: #fffff3e6 ;
     width: 238px;
     height: 238px;
     border-radius: 50%;
-    right: 7rem;
-    
 }
+.banner1__patrocinador{
+    order: 2;
+    right: 7rem;
+}
+.banner2__patrocinador{
+    order:1;
+    left: 7rem;
+}
+
 .banner__patrocinador__img{
     display: flex;
     background-image: url("../img/artworks-000071160325-45qoa7-t500x500.svg") ;
@@ -141,7 +157,7 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--blanco-azulado);
-    height: 300px;
+    height: 370px;
     gap: 1rem;
     color: var(--azul-oscuro);
 }
@@ -151,6 +167,10 @@
     width: 90%;
     border-radius: .7rem;
     padding: 0 1rem;
+}
+
+.vision__parrafo{
+    font-size: 1.5rem;
 }
 
 /* Nosotros */
@@ -239,20 +259,15 @@
 	justify-content: center;
 	align-items: center;
 	border: 1px solid var(--azul);
-	background-color: var(--blanco-azulado);
+	background-color: var(--azul);
 	border-radius: 6px;
 	height: 3rem;
 	padding: 0 .5rem;
-	transition: .4s;
+	transition:all .5s;
 	cursor: pointer;
 	text-decoration: none;
-	color: var(--azul-oscuro);
-	font-size: 16px;
-}
-
-.btn:hover {
 	color: var(--blanco);
-	background-color: var(--azul);
+	font-size: 16px;
 }
 
 /* Precauciones */

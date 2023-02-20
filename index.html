@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font.css">
     <title>Principal</title>
 </head>
 
@@ -14,16 +16,16 @@
         <nav class="encabezado__navegacion">
             <ul class="navegacion__menu">
                 <li class="navegacion__menu--item opcion1">
-                    <a href="" class="navegacion__item--enlace">Inicio</a>
+                    <a href="index.html" class="navegacion__item--enlace">Inicio</a>
                 </li>
                 <li class="navegacion__menu--item opcion2">
-                    <a href="#" class="navegacion__item--enlace enlace2">Cuidados</a>
+                    <a href="cuidados.html" class="navegacion__item--enlace enlace2">Cuidados</a>
                 </li>
                 <li class="navegacion__menu--item opcion3">
-                    <a href="" class="navegacion__item--enlace">Integrantes</a>
+                    <a href="#integrantes" class="navegacion__item--enlace">Integrantes</a>
                 </li>
                 <li class="navegacion__menu--item opcion4">
-                    <a href="" class="navegacion__item--enlace">Contactenos</a>
+                    <a href="#contacto" class="navegacion__item--enlace">Contactenos</a>
                 </li>
             </ul>
         </nav>
@@ -33,8 +35,8 @@
         <section class="banners">
             <article class="banner banner1">
                 <div class="banner__contenido banner1__contenido">
-                    <h2 class="banner__titulo banner1__titulo">Conozca la clave para alargar la vida de su computador</h2>
-                    <a class="banner__btn banner1__btn" target="_blank" href="precauciones.html">¡Comenzar!</a>
+                    <h2 class="banner__titulo banner1__titulo">Conozca la clave para alargar la <b style="color:greenyellow;"> vida</b> de su computador</h2>
+                    <a class="banner__btn banner1__btn" target="_blank" href="cuidados.html">¡Vamos!</a>
                 </div>
                 <div class="banner__patrocinador banner1__patrocinador">
                     <div class="banner__patrocinador__img banner1__patrocinador__img"></div>
@@ -43,8 +45,8 @@
 
             <article class="banner banner2">
                 <div class="banner__contenido banner2__contenido">
-                    <h2 class="banner__titulo banner2__titulo">Conozca la clave para alargar la vida de su computador</h2>
-                    <a class="banner__btn banner2__btn" target="_blank" href="precauciones.html">¡Comenzar!</a>
+                    <h2 class="banner__titulo banner2__titulo">Descubra como No descuidar su <b style="color: tomato;"> salud</b> al usar el computador</h2>
+                    <a class="banner__btn banner2__btn" target="_blank" href="cuidados.html#10">¡Vamos!</a>
                 </div>
                 <div class="banner__patrocinador banner2__patrocinador">
                     <div class="banner__patrocinador__img banner2__patrocinador__img"></div>
@@ -55,16 +57,17 @@
         
 
         <section class="vision">
-            <h2 class="vision__titulo section--titulo">Vision</h2>
+            <h2 class="vision__titulo section--titulo">Mision</h2>
             <article class="vision__articulo">
 
-                <p class="vision__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto quod
-                    molestias, assumenda autem nemo facere fugiat ea et recusandae vel ducimus distinctio ipsum,
-                    laudantium dignissimos quisquam error? Dignissimos, nemo?</p>
+                <p class="vision__parrafo">Explora los diversos campos de informacion sobre los cuidados que se deben considerar al usar el computador; y a su vez, como evitar problemas de la salud a mayor escala al usarlo. Con la finalidad de darle un mejor uso sin descuidar su propia salud en el acto.</p>
+
+                <p class="vision__parrafo">El computador es una herramienta esencial para las actividades diarias, puesto que se utiliza para trabajar de forma productiva; y como todas las cosas que adquirimos debe cuidarse para prolongar su funcionamiento y con ello evitar problemas.</p>
+                
             </article>
         </section>
 
-        <section class="integrantes">
+        <section id="integrantes" class="integrantes">
             <h2 class="integrantes__titulo section--titulo">Integrantes</h2>
             <div class="integrantes__box">
                 <article class="integrantes__1raP integrante">
@@ -86,13 +89,13 @@
             </div>
         </section>
 
-        <section id="6" class="contactenos">
+        <section id="contacto" class="contactenos">
             
             <img src="./assets/img/undraw_contact_us_re_4qqt.svg" alt="Img-contacto" class="contacto__img">
 
             <form action="https://formsubmit.co/heykervargas13@gmail.com" method="post" name="contacto__form" class="contacto__form">
                 <h1 class="contacto__h1 section--titulo">Contacto</h1>
-                <p class="contacto__p">¿Quieres contactarme? <br>
+                <p class="contacto__p">¿Quieres contactarnos? <br>
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 <label for="nombre">
                 Nombre y Apellido: <input name="nombre" class="contacto__form--nombre contacto__input" type="text" required>
@@ -113,7 +116,13 @@
     </main>
 
     <footer class="piePagina">
-
+        <section class="piePagina__sectionLogo">
+            <article class="piePagina__logo"></article>
+        </section>
+        <div style="text-align: center;">
+            <p>Desarrollado por Heyker Vargas</p>
+            <p>2023</p>
+        </div>
     </footer>
 </body>
 

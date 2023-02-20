@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font.css">
     <title>Precauciones</title>
 </head>
 <body>
     <header class="encabezado">
         <h1 class="encabezado__titulo">Activate+</h1>
         <nav class="encabezado__navegacion">
-            <ul class="navegacion__lista">
-                <li class="navegacion__lista--item">
-                    <a href="" class="navegacion__item--enlace">Inicio</a>
+            <ul class="navegacion__menu">
+                <li class="navegacion__menu--item">
+                    <a href="index.html" class="navegacion__item--enlace">Inicio</a>
                 </li>
-                <li class="navegacion__lista--item">
-                    <a href="" class="navegacion__item--enlace">Integrantes</a>
+                <li class="navegacion__menu--item opcion2">
+                    <a href="cuidados.html" class="navegacion__item--enlace enlace2">Cuidados</a>
                 </li>
-                <li class="navegacion__lista--item">
-                    <a href="" class="navegacion__item--enlace">Contactenos</a>
+                <li class="navegacion__menu--item opcion3">
+                    <a href="#1" class="navegacion__item--enlace enlace3">Computador+</a>
+                </li>
+                <li class="navegacion__menu--item opcion4">
+                    <a href="#10" class="navegacion__item--enlace enlace4">Salud+</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main class="tips">
-        <section class="tips__tip tipAzul">
+        <section id="1" class="tips__tip tipAzul">
             <div class="tipAzul__texto tip__texto">
                 <h2 class="tip__titulo">Limpia el Polvo</h2>
                 <p class="tip__parrafo">Parece una tontería pero el polvo se acumula más rápido de lo que parece y puede filtrarse y dañar algunos componentes.</p>
@@ -54,12 +59,12 @@
                 <h2 class="tip__titulo">Apaga el Ordenador Correctamente</h2>
                 <p class="tip__parrafo">El ordenador necesita ser apagado y descansar. Pero hazlo bien. Apágalo como toca, haciendo click en la opcion de apagar.</p>
             </div>
-            <img src="/assets/img/undraw_maintenance_re_59vn.svg" alt="">
+            <iframe width="540" height="295" src="https://www.youtube.com/embed/bidBk3QQdEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
 
         <section class="tips__tip tipAzul">
             <div class="tipAzul__texto tip__texto">
-                <h2 class="tip__titulo">Mantenlo Alejado de Fuentes de Calor e interferencias</h2>
+                <h2 class="tip__titulo">Mantenlo Alejado de Fuentes de Calor</h2>
                 <p class="tip__parrafo">Evita tener el ordenador expuesto a altas temperaturas o a bajas temperaturas. Su temperatura ideal es alrededor de los 16-20 grados.</p>
             </div>
             <img src="/assets/img/undraw_maintenance_re_59vn.svg" alt="">
@@ -97,7 +102,7 @@
             <img src="/assets/img/undraw_maintenance_re_59vn.svg" alt="">
         </section>
 
-        <section class="tips__tip tipBlanco">
+        <section id="10" class="tips__tip tipBlanco">
             <div class="tipBlanco__texto tip__texto">
                 <h2 class="tip__titulo">Haz descansos breves cada hora</h2>
                 <p class="tip__parrafo">Hacer un breve descanso de 5 minutos cada media hora; Cada hora, sin falta, debes levantarte para estirar las piernas; Estar unos instantes en posición erguida para que tu espalda no se resienta tanto; Caminar un poco ayudará a la circulación de tu sangre; Para que las rodillas no te duelan, evita tener las piernas cruzadas.</p>
@@ -173,7 +178,13 @@
     </main>
 
     <footer class="piePagina">
-        
+        <section class="piePagina__sectionLogo">
+            <article class="piePagina__logo"></article>
+        </section>
+        <div style="text-align: center;">
+            <p>Desarrollado por Heyker Vargas</p>
+            <p>2023</p>
+        </div>
     </footer>
 </body>
 </html>
