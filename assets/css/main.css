@@ -145,6 +145,32 @@
     background-repeat: no-repeat;    
 }
 
+.arrow {
+	position: absolute;
+	top: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: transparent;
+	border-top: 1.2vmin solid white;
+	border-right: 1.2vmin solid white;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+    cursor: pointer;
+}
+.arrow:hover {
+    border-color: var(--azul-oscuro);
+    box-shadow: 0.5vmin -0.5vmin 0 white;
+}
+.arrow__right{
+    right: 30px;
+	transform: translate3d(0,-50%,0) rotate(45deg);
+}
+.arrow__left{
+    left: 30px;
+	transform: translate3d(0,-50%,0) rotate(-135deg);
+}
+
+
 .section--titulo{
     text-align: center;
     padding-top: 1rem;
