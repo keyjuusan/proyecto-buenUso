@@ -298,12 +298,24 @@
 
 /* Precauciones */
 
-.tips{color: var(--azul-oscuro);}
+.tips{
+    color: var(--azul-oscuro);
+    justify-content: center;
+}
 
 .tips__tip{
     display: flex;
+    flex-wrap: nowrap;
     height: 300px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+}
+.tips__tip img, iframe{
+    object-fit: contain;
+    width: calc(60% - 4rem);
+    height: 85%;
+    border-radius: 1rem;
 }
 .tips__tip div p{
     margin: 0;
@@ -311,7 +323,9 @@
 .tip__texto{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: calc(40% - 1rem);
+    height: 85%;
+    gap: .8rem;
 }
 .tipAzul{
     background-color: var(--blanco-azulado);
