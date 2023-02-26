@@ -23,28 +23,34 @@
 .banner1{
     background-image: linear-gradient(#0aa1dd35, #0aa1dd58),url('../img/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg');
     background-position: top;
-    animation:animacion1 18s alternate infinite ease-in-out;
-    left: 0%;
+    /* right: 0%; */
+    z-index: 1;
+}
+/* .bannerA1{
+    animation:animacion1 16s alternate infinite ease-in-out;
+    
 }
 @keyframes animacion1{
-    0% {left: 0%;}
-	20% {left: 0%;}
+    0% {right: 0%;}
+	20% {right: 0%;}
 	
-	25% {left: 0%;}
-	45% {left: 0%;}
+	25% {right: 0%;}
+	45% {right: 0%;}
 	
-	50% {left: -100%;}
-	70% {left: -100%;}
+	50% {right: 100%;}
+	70% {right: 100%;}
 	
-	75% {left: -100%;}
-	100% {left: -100%;}
-}
-
+	75% {right: 100%;}
+	100% {right: 100%;}
+} */
 .banner2{
     background-image: linear-gradient(#79d9e87a, #79d9e876),url('../img/emma-simpson-mNGaaLeWEp0-unsplash.jpg');
     background-position: bottom;
-    left: 100%;
-    animation:animacion2 18s alternate infinite ease-in-out;
+    /* left: 100%; */
+    z-index: 1;
+}
+/* .bannerA2{
+    animation:animacion2 16s alternate infinite ease-in-out;
 }
 @keyframes animacion2{
     0% {left: 100%;}
@@ -58,7 +64,7 @@
 	
 	75% {left: 0%;}
 	100% {left: 0%;}
-}
+} */
 
 .banner__contenido{
     position: absolute;
