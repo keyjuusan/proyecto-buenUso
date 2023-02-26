@@ -23,8 +23,7 @@
 .banner1{
     background-image: linear-gradient(#0aa1dd35, #0aa1dd58),url('../img/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg');
     background-position: top;
-    /* right: 0%; */
-    z-index: 1;
+    right: 0%;
 }
 /* .bannerA1{
     animation:animacion1 16s alternate infinite ease-in-out;
@@ -46,8 +45,7 @@
 .banner2{
     background-image: linear-gradient(#79d9e87a, #79d9e876),url('../img/emma-simpson-mNGaaLeWEp0-unsplash.jpg');
     background-position: bottom;
-    /* left: 100%; */
-    z-index: 1;
+    left: 100%;
 }
 /* .bannerA2{
     animation:animacion2 16s alternate infinite ease-in-out;
